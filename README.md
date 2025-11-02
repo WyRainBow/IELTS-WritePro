@@ -1,5 +1,11 @@
 # 雅思写作练习系统设计文档
 
+
+## 本地运行展示
+
+<img width="1158" height="1176" alt="image" src="https://github.com/user-attachments/assets/85fb7d19-0081-49a3-8cf8-94764672bd83" />
+
+
 ## 1. 系统架构
 
 ```mermaid
