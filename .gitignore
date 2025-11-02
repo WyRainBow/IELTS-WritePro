@@ -1,0 +1,11 @@
+node_modules/
+dist/
+frontend/dist/
+backend/node_modules/
+frontend/node_modules/
+.env
+.DS_Store
+*.log
+backend/src/data/submissions.json
+PNG/
+
