@@ -4,12 +4,12 @@
 
 ```mermaid
 flowchart LR
-    Client[React 前端<br/>Vite + Axios]
-    APIGateway[Node.js Express 后端<br/>(业务服务层)]
-    Cache[(本地 JSON 缓存<br/>submissions.json)]
-    Mongo[(MongoDB 数据库<br/>(可选接入))]
-    Zhipu[智谱 AI<br/>glm-4.5-vision]
-    Qwen[阿里云千问<br/>兼容接口]
+    Client["React 前端\nVite + Axios"]
+    APIGateway["Node.js Express 后端\n(业务服务层)"]
+    Cache["本地 JSON 缓存\nsubmissions.json"]
+    Mongo[("MongoDB 数据库\n(可选接入)")]
+    Zhipu["智谱 AI\nglm-4.5-vision"]
+    Qwen["阿里云千问\n兼容接口"]
 
     Client -->|REST /api| APIGateway
     APIGateway -->|读写| Mongo
